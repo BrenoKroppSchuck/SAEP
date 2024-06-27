@@ -51,6 +51,7 @@ nav ul li {
 .grid-container img {
     width: 100%;
     height: auto;
+    cursor: pointer;
 }
 
 .overlay {
@@ -154,5 +155,31 @@ footer .social-icons img {
 .close:focus {
     color: black;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.comments {
+    margin-top: 10px;
+}
+
+.comment-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.comment-input input {
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.comment-input button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #161616;
+    color: #fff;
+    border: none;
     cursor: pointer;
 }

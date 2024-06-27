@@ -70,12 +70,21 @@
         <div class="modal-content">
             <span class="close" onclick="closePhotoModal()">&times;</span>
             <img id="modalPhoto" src="" alt="Foto">
+            <div class="overlay">
+                <span class="like-btn" data-liked="false">&#x2764;</span>
+                <span class="like-count">0</span>
+                <span class="comment-btn">&#x1F4AC;</span>
+                <span class="comment-count">0</span>
+            </div>
             <div class="comments">
                 <!-- Comentários -->
             </div>
+            <div class="comment-input">
+                <input type="text" id="commentText" placeholder="Digite seu comentário">
+                <button id="submitComment">Comentar</button>
+            </div>
         </div>
     </div>
-
 
     <script src="script.js"></script>
 </body>
